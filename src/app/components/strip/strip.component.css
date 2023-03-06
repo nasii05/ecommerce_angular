@@ -1,0 +1,57 @@
+.strip{
+  width: 100vw;
+  height: 3.125rem;
+  background-color: #3A98B9;
+  display: flex;
+  flex-direction: row;
+}
+#no{
+  font-family: 'Shantell Sans', cursive;
+  color: white;
+  margin-top: 0.8125rem;
+  margin-left: 0.625rem;
+}
+#no:hover{
+  cursor: pointer;
+  color: black;
+}
+#off{
+  font-family: 'Shantell Sans', cursive;
+  color: white;
+  margin-top: 0.8125rem;
+  margin-left: 37.5rem;
+}
+#off:hover{
+  cursor: pointer;
+  color: black;
+}
+#shop{
+  font-family: 'Shantell Sans', cursive;
+  color: white;
+  margin-top: 0.8125rem;
+  margin-left: 0.625rem;
+}
+#shop:hover{
+  cursor: pointer;
+  color: black;
+}
+.drop{
+  font-family: 'Shantell Sans', cursive;
+  color: white;
+  margin-top: 0.8125rem;
+  margin-left: 37.5rem;
+}
+.drop:hover{
+  cursor: pointer;
+  color: black;
+}
+.drop2{
+  font-family: 'Shantell Sans', cursive;
+  color: white;
+  margin-top: 0.8125rem;
+  margin-left: 2.5rem;
+}
+.drop2:hover{
+  cursor: pointer;
+  color:  black;
+}

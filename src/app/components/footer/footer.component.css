@@ -1,0 +1,98 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Shantell+Sans:wght@500&display=swap');
+
+.footer{
+  width: 100vw;
+  height: 25rem;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  color: white;
+  font-family: 'Shantell Sans', cursive;
+}
+.about_section{
+  width: 25rem;
+  height: 25rem;
+  /* background-color: rgb(249, 141, 141); */
+  display: flex;
+  flex-direction: column;
+}
+#about{
+  margin-left: 1.875rem;
+  margin-top: 3.75rem;
+}
+#about:hover{
+  cursor: pointer;
+  color: red;
+}
+.alpha{
+  color: white;
+  text-decoration: none;
+  margin-top: 1.875rem;
+  margin-left: 1.875rem;
+}
+.alpha:hover{
+  color: rgb(131, 118, 118);
+  cursor: pointer;
+}
+.social_section{
+  width: 31.25rem;
+  height: 25rem;
+  /* background-color: rgb(36, 130, 213); */
+  margin-left: 18.75rem;
+  display: flex;
+  flex-direction: column;
+}
+#social{
+  margin-left: 9.375rem;
+  margin-top: 3.125rem;
+}
+#social:hover{
+  cursor: pointer;
+  color: red;
+}
+.sociallink{
+  width: 6.25rem;
+  height: 6.25rem;
+  /* background-color: red; */
+  margin-left: 3.125rem;
+  margin-top: 2.5rem;
+  display: flex;
+}
+.social_logos{
+  width: 28.125rem;
+  height: 18.75rem;
+  /* background-color: blue; */
+  display: flex;
+}
+.logo{
+  width: 5rem;
+  height: 5rem;
+  margin-left: 0.625rem;
+  margin-top: 0.625rem;
+  fill: white;
+}
+.logo:hover{
+  cursor: pointer;
+  fill: rgb(195, 195, 255);
+}
+.company_address{
+  width: 25rem;
+  height: 25rem;
+  /* background-color: red; */
+  position: relative;
+  left: 19.0625rem;
+  display: flex;
+  flex-direction: column;
+}
+#address{
+  margin-top: 3.125rem;
+}
+#address:hover{
+  cursor: pointer;
+  color: red;
+}
+#address_title{
+  width: 25rem;
+  height: 6.25rem;
+  /* background-color: aquamarine; */
+}

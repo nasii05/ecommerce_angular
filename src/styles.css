@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+  margin: 0;
+  font-family: 'Shantell Sans', cursive;
+}
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Shantell+Sans:wght@500&display=swap');
+
+
+
+

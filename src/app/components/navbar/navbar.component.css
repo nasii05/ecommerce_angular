@@ -1,0 +1,58 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Shantell+Sans:wght@500&display=swap');
+
+
+.navbar{
+  width: 100vw;
+  height: 6.25rem;
+  /* background-color: #E8D5C4; */
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: row;
+}
+#heading{
+  font-family: 'Shantell Sans', cursive;
+  color: darkgreen;
+  margin-top: 1.875rem;
+  margin-left: 3.125rem;
+}
+#heading:hover{
+  cursor: pointer;
+  color: rgb(7, 201, 7);
+}
+.items{
+  font-family: 'Shantell Sans', cursive;
+  color: black;
+  margin-left: 6.25rem;
+  margin-top: 2.5rem;
+}
+.items:hover{
+  cursor: pointer;
+  color: red;
+}
+.items:focus{
+  color: rgb(69, 220, 124);
+}
+#input{
+  width: 12.5rem;
+  height: 2.5rem;
+  margin-left: 12.5rem;
+  margin-top: 1.875rem;
+  border: none;
+  border-radius: 1.25rem;
+  font-family: 'Shantell Sans', cursive;
+  font-size: 1.25rem;
+}
+.items-end{
+  font-family: 'Shantell Sans', cursive;
+  color: black;
+  margin-top: 2.5rem;
+  margin-left: 12.5rem;
+}
+.items-end:hover{
+  cursor: pointer;
+  color: red;
+}
+.items-end:focus{
+  color: rgb(69, 220, 124);
+}

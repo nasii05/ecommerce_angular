@@ -1,0 +1,44 @@
+<div class="whole">
+  <div class="container">
+    <div class="promo">
+      <div class="promo-content">
+        <h1 id="grab">Grab upto 50% off on</h1>
+        <h1 id="select">selected clothes</h1>
+      </div>
+      <div id="image-content">
+        <img src="../../../assets/images/women/banner.webp" alt="" id="image"/>
+      </div>
+    </div>
+  </div>
+
+  <div class="cont">
+    <button class="head">Headphone Type</button>
+    <button class="items">Price</button>
+    <button class="items">Review</button>
+    <button class="items">color</button>
+    <button class="items">material</button>
+    <button class="items">offer</button>
+    <button class="items">All filters</button>
+
+    <div class="end">
+      <button id="sort">Sort by</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="product_card" *ngFor="let item of product">
+      <div class="image_section">
+        <img src="{{ item.img }}" alt="" id="image_headset" />
+        <h2 id="product_title">{{ item.heading }}</h2>
+        <button class="button-51" role="button">Buy Now!</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <img src="../../../assets/images/women/girl1.jpg" alt="">
+<img src="../../../assets/images/women/women1.webp" alt="">
+<img src="../../../assets/images/women/men2.jpg" alt="">
+<img src="../../../assets/images/women/men1.jpg" alt="">
+<img src="../../../assets/images/women/women2.jpg" alt="">
+ -->
