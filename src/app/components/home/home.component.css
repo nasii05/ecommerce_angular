@@ -148,6 +148,10 @@
   border-top-left-radius: 1.875rem;
   border-top-right-radius: 1.875rem;
 }
+#image_headset:hover{
+  transform: rotateY(180deg);
+  transition: transform 3s;
+}
 .whole{
   width: 120rem;
   height: 62.5rem;
