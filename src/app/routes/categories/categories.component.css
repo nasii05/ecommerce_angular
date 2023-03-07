@@ -34,7 +34,7 @@
 }
 #cat_image:hover{
   transform: rotateY(180deg);
-  transition: transform 3s;
+  transition: transform 1s;
 }
 #cat_title{
   font-family: 'Tilt Warp', cursive;

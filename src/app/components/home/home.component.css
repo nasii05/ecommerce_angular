@@ -150,7 +150,7 @@
 }
 #image_headset:hover{
   transform: rotateY(180deg);
-  transition: transform 3s;
+  transition: transform 1s;
 }
 .whole{
   width: 120rem;
