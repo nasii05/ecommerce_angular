@@ -1,28 +1,28 @@
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Shantell+Sans:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Shantell+Sans:wght@500&display=swap");
 
-.container{
+.container {
   width: 120rem;
   height: 25rem;
   background-color: aliceblue;
   display: flex;
 }
-.promo{
+.promo {
   width: 81.25rem;
   height: 18.75rem;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   margin-top: 3.125rem;
   margin-left: 18.75rem;
   border-radius: 1.25rem;
   display: flex;
   flex-direction: row;
 }
-.promo:hover{
+.promo:hover {
   /* background-color: rgb(162, 39, 245); */
   cursor: pointer;
   transform: translateY(-0.625rem);
 }
-.promo-content{
+.promo-content {
   height: 18.75rem;
   width: 31.25rem;
   /* background-color: teal; */
@@ -30,36 +30,36 @@
   display: flex;
   flex-direction: column;
 }
-#grab{
+#grab {
   margin-top: 6.25rem;
   font-size: 2.5rem;
-  font-family: 'Shantell Sans', cursive;
+  font-family: "Shantell Sans", cursive;
 }
-#select{
+#select {
   font-size: 2.5rem;
-  font-family: 'Shantell Sans', cursive;
+  font-family: "Shantell Sans", cursive;
 }
-#image-content{
+#image-content {
   height: 18.75rem;
   width: 25rem;
   /* background-color: rebeccapurple; */
   margin-left: 15.625rem;
 }
-#image{
+#image {
   height: 18.75rem;
   width: 25rem;
 }
-#image:hover{
+#image:hover {
   scroll-behavior: initial;
 }
-.cont{
+.cont {
   width: 100%;
   height: 6.25rem;
   background-color: aliceblue;
   display: flex;
   flex-direction: row;
 }
-.head{
+.head {
   border: none;
   color: black;
   background-color: rgb(204, 204, 204);
@@ -69,13 +69,13 @@
   border-radius: 1.875rem;
   font-size: 0.9375rem;
   width: 12.5rem;
-  font-family: 'Shantell Sans', cursive;
+  font-family: "Shantell Sans", cursive;
 }
-.head:hover{
+.head:hover {
   transform: translatey(-0.3125rem);
   cursor: pointer;
 }
-.items{
+.items {
   border: none;
   color: black;
   background-color: rgb(204, 204, 204);
@@ -85,21 +85,21 @@
   border-radius: 1.875rem;
   font-size: 0.9375rem;
   width: 9.375rem;
-  font-family: 'Shantell Sans', cursive;
+  font-family: "Shantell Sans", cursive;
 }
-.items:hover{
+.items:hover {
   transform: translateY(-0.3125rem);
   cursor: pointer;
 }
-.end{
+.end {
   width: 6.25rem;
   height: 6.25rem;
   /* background-color: blue; */
   margin-left: 28.125rem;
   display: flex;
-  font-family: 'Shantell Sans', cursive;
+  font-family: "Shantell Sans", cursive;
 }
-#sort{
+#sort {
   border: 0.1875rem solid black;
   color: black;
   background-color: transparent;
@@ -109,21 +109,21 @@
   width: 9.375rem;
   margin-top: 1.5625rem;
   margin-right: 1.25rem;
-  font-family: 'Shantell Sans', cursive;
+  font-family: "Shantell Sans", cursive;
 }
-#sort:hover{
+#sort:hover {
   transform: translateY(-0.3125rem);
   cursor: pointer;
   background-color: rgb(196, 196, 255);
 }
 
-.card{
+.card {
   width: 100%;
   height: 31.25rem;
   background-color: aliceblue;
   display: flex;
 }
-.product_card{
+.product_card {
   width: 21.875rem;
   height: 28.125rem;
   background-color: aliceblue;
@@ -132,33 +132,33 @@
   border-radius: 1.25rem;
   box-shadow: 0.625rem 0.625rem 0.625rem hsl(0, 0%, 52%);
 }
-.product_card:hover{
+.product_card:hover {
   transform: translateY(-1.25rem);
   cursor: pointer;
 }
-.image_section{
+.image_section {
   width: 21.875rem;
   height: 18.75rem;
   /* background-color: red; */
   border-radius: 1.875rem 1.875rem 0px 0px;
 }
-#image_headset{
+#image_headset {
   width: 21.875rem;
   height: 18.125rem;
   border-top-left-radius: 1.875rem;
   border-top-right-radius: 1.875rem;
 }
-#image_headset:hover{
+#image_headset:hover {
   transform: rotateY(180deg);
   transition: transform 1s;
 }
-.whole{
+.whole {
   width: 120rem;
   height: 62.5rem;
   background-color: aquamarine;
 }
-#product_title{
-  font-family: 'Shantell Sans', cursive;
+#product_title {
+  font-family: "Shantell Sans", cursive;
   color: rgb(28, 2, 2);
   text-align: center;
   margin-top: 1.25rem;
@@ -167,10 +167,10 @@
 /* button */
 .button-51 {
   background-color: transparent;
-  border: 1px solid #266DB6;
+  border: 1px solid #266db6;
   box-sizing: border-box;
-  color: #00132C;
-  font-family: 'Shantell Sans', cursive;
+  color: #00132c;
+  font-family: "Shantell Sans", cursive;
   font-size: 1rem;
   font-weight: 700;
   line-height: 1.5rem;
@@ -182,7 +182,6 @@
   touch-action: manipulation;
   margin-left: 9.375rem;
   margin-top: 1rem;
-
 }
 
 .button-51:hover,
@@ -196,7 +195,7 @@
 }
 
 .button-51:before {
-  background-color: #D5EDF6;
+  background-color: #d5edf6;
   content: "";
   height: calc(100% + 0.1875rem);
   position: absolute;
@@ -208,5 +207,5 @@
 }
 
 .button-51:hover:before {
-  background-color: #6DCFF6;
+  background-color: #6dcff6;
 }
